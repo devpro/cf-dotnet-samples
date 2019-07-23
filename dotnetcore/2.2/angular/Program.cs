@@ -18,8 +18,8 @@ namespace Angular
                 .UseKestrel(options =>
                 {
                     // hack: I (Bertrand Thomas) had to add this line to be able to run the app (but don't understand why)
-                    // fix: Unable to start Kestrel. System.InvalidOperationException: Unable to configure HTTPS endpoint. No server certificate was specified, and the default developer certificate could not be found.
-                    options.Listen(IPAddress.Loopback, 5001, listenOptions => { });
+                    // error="Unable to start Kestrel. System.InvalidOperationException: Unable to configure HTTPS endpoint. No server certificate was specified, and the default developer certificate could not be found."
+                    // options.Listen(IPAddress.Loopback, 5001, listenOptions => { });
                 });
         }
     }

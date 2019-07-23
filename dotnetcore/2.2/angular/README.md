@@ -9,8 +9,9 @@ Make sure you have all prerequisites detailed on this [page](../../../docs/prere
 ## Deploy on Cloud Foundry
 
 * Run `cf login -a https://api.run.pivotal.io` (only once for your session), update the URL if you are not using Pivotal Web Services.
-* Run `cf push` (everytime you update the source files)
+* Run `./push.sh` (everytime you update the source files)
 * Open in a browser the url provided in the output of the push command, enjoy!
+* Run `cf logs cfsample-dotnetcore22-angular --recent` to look at recent logs
 
 ## Run locally
 
