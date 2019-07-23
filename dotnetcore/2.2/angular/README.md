@@ -1,6 +1,6 @@
-# ASP.NET Core Web App [C#] Web/MVC/Razor Pages
+# ASP.NET Core with Angular Web App [C#] Web/MVC/SPA
 
-This .NET Core App 2.2 web application has been created from Microsoft template (`dotnet new webapp`).
+This .NET Core App 2.2 web application has been created from Microsoft template (`dotnet new angular`).
 
 ## Setup
 
