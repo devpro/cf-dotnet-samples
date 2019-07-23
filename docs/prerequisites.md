@@ -17,3 +17,9 @@ Depending on your OS there may be different solutions, in all cases you can visi
 A Cloud Foundry platform must be available to do the deployments, the easiest and best solution is to run on Pivotal Cloud Foundry.
 
 You can create a free [Pivotal Web Services](https://try.run.pivotal.io/gettingstarted) account (no credit card required).
+
+## NPM
+
+NPM (NodeJS) must be installed for Angular projects.
+
+Depending on your OS there may be different solutions, in all cases you can visit [NodeJS Downloads page](https://nodejs.org/en/download/).

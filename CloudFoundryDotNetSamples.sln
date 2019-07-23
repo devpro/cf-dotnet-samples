@@ -1,9 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET Core 2.2", ".NET Core 2.2", "{6B8F206C-109F-4C70-BB96-7A7AA4BC2F4B}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "dotnetcore\2.2\webapp\WebApp.csproj", "{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET Core 2.2", ".NET Core 2.2", "{6B8F206C-109F-4C70-BB96-7A7AA4BC2F4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular", "dotnetcore\2.2\angular\Angular.csproj", "{AAF779CC-1FF2-477A-9901-35BA15C7025D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,13 @@ Global
 		{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A}.Debug|x86.Build.0 = Debug|Any CPU
 		{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A}.Release|x86.ActiveCfg = Release|Any CPU
 		{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A}.Release|x86.Build.0 = Release|Any CPU
+		{AAF779CC-1FF2-477A-9901-35BA15C7025D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AAF779CC-1FF2-477A-9901-35BA15C7025D}.Debug|x86.Build.0 = Debug|Any CPU
+		{AAF779CC-1FF2-477A-9901-35BA15C7025D}.Release|x86.ActiveCfg = Release|Any CPU
+		{AAF779CC-1FF2-477A-9901-35BA15C7025D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A} = {6B8F206C-109F-4C70-BB96-7A7AA4BC2F4B}
+		{AAF779CC-1FF2-477A-9901-35BA15C7025D} = {6B8F206C-109F-4C70-BB96-7A7AA4BC2F4B}
 	EndGlobalSection
 EndGlobal
