@@ -1,0 +1,22 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "dotnetcore\2.2\webapp\WebApp.csproj", "{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET Core 2.2", ".NET Core 2.2", "{6B8F206C-109F-4C70-BB96-7A7AA4BC2F4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A}.Debug|x86.Build.0 = Debug|Any CPU
+		{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A}.Release|x86.ActiveCfg = Release|Any CPU
+		{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A} = {6B8F206C-109F-4C70-BB96-7A7AA4BC2F4B}
+	EndGlobalSection
+EndGlobal
