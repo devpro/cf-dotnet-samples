@@ -1,0 +1,8 @@
+---
+applications:
+  - name: cfsample-dotnetcore22-webapp
+    memory: 128M
+    instances: 1
+    random-route: true
+    env:
+      CACHE_NUGET_PACKAGES: false
