@@ -8,6 +8,9 @@ Make sure you have all prerequisites detailed on [this page](../../../docs/prere
 
 ## Deploy on Cloud Foundry
 
+This procedure has been validated on [PWS](https://run.pivotal.io/), [PAS on GCP](https://cloud.google.com/solutions/cloud-foundry-on-gcp)
+and [cfdev](https://github.com/cloudfoundry-incubator/cfdev).
+
 * Run `cf login -a https://api.run.pivotal.io` (only once for your session), update the URL if you are not using Pivotal Web Services.
 * Run `./cfpush.sh` (everytime you update the source files)
 * Open in a browser the url provided in the output of the push command, enjoy!

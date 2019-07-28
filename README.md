@@ -17,4 +17,4 @@ All projects will require to meet the requirements described in the [prerequisit
 
 If you want to know more, look at the following pages:
 
-- [Clound Foundry Developer Guide](https://docs.cloudfoundry.org/devguide/index.html)
+- [Cloud Foundry Developer Guide](https://docs.cloudfoundry.org/devguide/index.html)

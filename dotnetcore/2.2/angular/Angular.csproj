@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AssemblyName>Angular</AssemblyName>
     <RootNamespace>Angular</RootNamespace>
+    <TargetLatestRuntimePatch>true</TargetLatestRuntimePatch>
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
     <IsPackable>false</IsPackable>
