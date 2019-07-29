@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cfsampleaspnetcore-deployment
+spec:
+  selector:
+    matchLabels:
+      component: cfsampleaspnetcore
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        component: cfsampleaspnetcore
+    spec:
+      containers:
+        - name: cfsampleaspnetcore-container
+          image: devprofr/cfsampleaspnetcore:latest
+          ports:
+            - containerPort: 80

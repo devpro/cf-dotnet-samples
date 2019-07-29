@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cfsampleangularaspnetcore-deployment
+spec:
+  selector:
+    matchLabels:
+      component: cfsampleangularaspnetcore
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        component: cfsampleangularaspnetcore
+    spec:
+      containers:
+        - name: cfsampleangularaspnetcore-container
+          image: devprofr/cfsampleangularaspnetcore:latest
+          ports:
+            - containerPort: 80
