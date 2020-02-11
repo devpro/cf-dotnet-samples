@@ -1,16 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - .NET Core 2.2 Applications", ".NET Core 2.2", "{6B8F206C-109F-4C70-BB96-7A7AA4BC2F4B}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - .NET Core 2.2 Applications", "1 - .NET Core 2.2 Applications", "{6B8F206C-109F-4C70-BB96-7A7AA4BC2F4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "dotnetcore\2.2\webapp\WebApp.csproj", "{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "dotnetcore\2.2\webapp\WebApp.csproj", "{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular", "dotnetcore\2.2\angular\Angular.csproj", "{AAF779CC-1FF2-477A-9901-35BA15C7025D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angular", "dotnetcore\2.2\angular\Angular.csproj", "{AAF779CC-1FF2-477A-9901-35BA15C7025D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Solutions Items", "0 - Solutions Items", "{680624E1-B64F-45D4-8EA6-AE9CF409DF27}"
-ProjectSection(SolutionItems) = preProject
-	README.md = README.md
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +30,14 @@ Global
 		{AAF779CC-1FF2-477A-9901-35BA15C7025D}.Release|x86.ActiveCfg = Release|Any CPU
 		{AAF779CC-1FF2-477A-9901-35BA15C7025D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E83D4D05-F3AE-42A0-B6CB-E220DE7D536A} = {6B8F206C-109F-4C70-BB96-7A7AA4BC2F4B}
 		{AAF779CC-1FF2-477A-9901-35BA15C7025D} = {6B8F206C-109F-4C70-BB96-7A7AA4BC2F4B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0EE0C05-5F53-4997-AB3D-25621ECA46B8}
 	EndGlobalSection
 EndGlobal
